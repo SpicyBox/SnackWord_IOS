@@ -329,14 +329,44 @@
                     <view key="view" contentMode="scaleToFill" id="g1l-gR-PJV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="90" translatesAutoresizingMaskIntoConstraints="NO" id="peX-Th-hfR">
+                                <rect key="frame" x="20" y="758.5" width="374" height="34.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pra-jg-3S5">
+                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="생활"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5A-I9-EJQ">
+                                        <rect key="frame" x="154.5" y="0.0" width="65" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="토익"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="riW-Sx-nCi">
+                                        <rect key="frame" x="309.5" y="0.0" width="64.5" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="논술"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="riW-Sx-nCi" firstAttribute="leading" secondItem="z5A-I9-EJQ" secondAttribute="trailing" constant="20" id="moZ-QV-B2r"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Msf-2d-5ob"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Msf-2d-5ob" firstAttribute="bottom" secondItem="peX-Th-hfR" secondAttribute="bottom" constant="20" id="7bu-PF-l9p"/>
+                            <constraint firstItem="peX-Th-hfR" firstAttribute="leading" secondItem="Msf-2d-5ob" secondAttribute="leading" constant="20" id="DX6-wK-iAZ"/>
+                            <constraint firstItem="Msf-2d-5ob" firstAttribute="trailing" secondItem="peX-Th-hfR" secondAttribute="trailing" constant="20" id="YUc-4e-Ooe"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="문제풀기" selectedImage="highlighter" catalog="system" id="1fe-DS-7uX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tWo-vi-Xez" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3538" y="-733"/>
+            <point key="canvasLocation" x="3537.68115942029" y="-733.25892857142856"/>
         </scene>
         <!--설정-->
         <scene sceneID="3pB-b7-pkk">
