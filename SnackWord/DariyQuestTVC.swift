@@ -12,6 +12,7 @@ class dariyQuestTVC: UITableViewCell {
     @IBOutlet weak var dairyQuestView: UIView!
     @IBOutlet weak var dairyQuestImgView: UIImageView!
     @IBOutlet weak var dairyQuestLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

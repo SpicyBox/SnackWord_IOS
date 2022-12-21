@@ -46,7 +46,7 @@
 		FB98C5D929529FDA0082E91E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FB98C5D729529B170082E91E /* DariyQuestTVC.swift */,
+				FB98C5DC2952A0560082E91E /* QuestionViewController.swift */,
 				FB98C5DA2952A01B0082E91E /* RankViewController.swift */,
 			);
 			path = ViewController;
@@ -79,7 +79,7 @@
 				FBFBB85B2951405A000A6C77 /* Assets.xcassets */,
 				FBFBB85D2951405A000A6C77 /* LaunchScreen.storyboard */,
 				FBFBB8602951405A000A6C77 /* Info.plist */,
-				FB98C5DC2952A0560082E91E /* QuestionViewController.swift */,
+				FB98C5D729529B170082E91E /* DariyQuestTVC.swift */,
 			);
 			path = SnackWord;
 			sourceTree = "<group>";

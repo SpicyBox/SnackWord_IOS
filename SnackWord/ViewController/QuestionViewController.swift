@@ -9,15 +9,15 @@ import UIKit
 
 class QuestionViewController: UIViewController {
 
-    var dairyQuestList = ["생활 영어 1회 플레이", "토익 영어 1회 플레이", "논술 영어 1회 플레이"]
+    var dairyQuestList = ["생활", "토익", "논술"]
     
     @IBOutlet weak var dairyQuestTabelView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         dairyQuestTabelView.dataSource = self
     }
-    
 }
 
 extension QuestionViewController: UITableViewDataSource{
