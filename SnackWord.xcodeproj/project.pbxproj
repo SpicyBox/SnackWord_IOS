@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB98C5D829529B170082E91E /* DariyQuestTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB98C5D729529B170082E91E /* DariyQuestTVC.swift */; };
+		FB98C5DB2952A01B0082E91E /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB98C5DA2952A01B0082E91E /* RankViewController.swift */; };
+		FB98C5DD2952A0560082E91E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB98C5DC2952A0560082E91E /* QuestionViewController.swift */; };
 		FBFBB85329514059000A6C77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB85229514059000A6C77 /* AppDelegate.swift */; };
 		FBFBB85529514059000A6C77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB85429514059000A6C77 /* SceneDelegate.swift */; };
 		FBFBB85729514059000A6C77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB85629514059000A6C77 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB98C5D729529B170082E91E /* DariyQuestTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DariyQuestTVC.swift; sourceTree = "<group>"; };
+		FB98C5DA2952A01B0082E91E /* RankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		FB98C5DC2952A0560082E91E /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		FBFBB84F29514059000A6C77 /* SnackWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFBB85229514059000A6C77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBFBB85429514059000A6C77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB98C5D929529FDA0082E91E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FB98C5D729529B170082E91E /* DariyQuestTVC.swift */,
+				FB98C5DA2952A01B0082E91E /* RankViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		FBFBB84629514059000A6C77 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +71,7 @@
 		FBFBB85129514059000A6C77 /* SnackWord */ = {
 			isa = PBXGroup;
 			children = (
+				FB98C5D929529FDA0082E91E /* ViewController */,
 				FBFBB85229514059000A6C77 /* AppDelegate.swift */,
 				FBFBB85429514059000A6C77 /* SceneDelegate.swift */,
 				FBFBB85629514059000A6C77 /* ViewController.swift */,
@@ -63,6 +79,7 @@
 				FBFBB85B2951405A000A6C77 /* Assets.xcassets */,
 				FBFBB85D2951405A000A6C77 /* LaunchScreen.storyboard */,
 				FBFBB8602951405A000A6C77 /* Info.plist */,
+				FB98C5DC2952A0560082E91E /* QuestionViewController.swift */,
 			);
 			path = SnackWord;
 			sourceTree = "<group>";
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB98C5DB2952A01B0082E91E /* RankViewController.swift in Sources */,
 				FBFBB85729514059000A6C77 /* ViewController.swift in Sources */,
+				FB98C5DD2952A0560082E91E /* QuestionViewController.swift in Sources */,
 				FBFBB85329514059000A6C77 /* AppDelegate.swift in Sources */,
+				FB98C5D829529B170082E91E /* DariyQuestTVC.swift in Sources */,
 				FBFBB85529514059000A6C77 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
