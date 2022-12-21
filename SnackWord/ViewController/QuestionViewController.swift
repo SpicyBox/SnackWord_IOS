@@ -9,7 +9,7 @@ import UIKit
 
 class QuestionViewController: UIViewController {
 
-    var dairyQuestList = ["생활", "토익", "논술"]
+    var dairyQuestList = ["1", "2", "3"]
     
     @IBOutlet weak var dairyQuestTabelView: UITableView!
     
