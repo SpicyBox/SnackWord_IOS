@@ -533,6 +533,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="idTxtField" destination="z47-ee-wwB" id="qtl-yp-3CZ"/>
                         <outlet property="loginButton" destination="Gbj-sI-5Bx" id="BNa-0u-lpa"/>
                     </connections>
                 </viewController>
