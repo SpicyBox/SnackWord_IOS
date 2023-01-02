@@ -11,13 +11,19 @@ import FirebaseAuth
 
 class loginViewController: UIViewController {
 
-    @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var idTxtField: UITextField!
+    @IBOutlet weak var passwordTxtField: UITextField!
     
-    func login(email: String, password: String){
+    func login(email: String, password: String){//파이어 베이스
         Auth.auth().signIn(withEmail: email, password: password) {
             [weak self] authResult, error in
-            guard let strongSelf = self else { return }
+            if authResult != nil {
+                guard let nextVC = self?.storyboard?.instantiateViewController(identifier: "mainTabBarController") else {return}
+                self?.navigationController?.pushViewController(nextVC, animated: true)
+            } else {
+                print("로그인 실패")
+                print(error.debugDescription)
+            }
         }
     }
     
@@ -27,6 +33,9 @@ class loginViewController: UIViewController {
     
     }
     
+    @IBAction func pressLoginBtn(_ sender: UIButton) {
+        login(email: idTxtField.text!, password: passwordTxtField.text!)
+    }
 }
 
 

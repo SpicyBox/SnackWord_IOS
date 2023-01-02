@@ -513,6 +513,9 @@
                                 <rect key="frame" x="20" y="487" width="374" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="로그인"/>
+                                <connections>
+                                    <action selector="pressLoginBtn:" destination="1vk-VI-Tb2" eventType="touchUpInside" id="U3D-3z-fiZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="E7L-lY-E2c"/>
@@ -534,7 +537,7 @@
                     </view>
                     <connections>
                         <outlet property="idTxtField" destination="z47-ee-wwB" id="qtl-yp-3CZ"/>
-                        <outlet property="loginButton" destination="Gbj-sI-5Bx" id="BNa-0u-lpa"/>
+                        <outlet property="passwordTxtField" destination="uIA-S5-a6h" id="BIN-H9-e6E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ut8-N0-FQa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -544,7 +547,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="KWz-u0-Mnl">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="USl-mC-wLe" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="mainTabBarController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="USl-mC-wLe" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="ks2-37-A6z"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="A2j-0l-Kq3">
