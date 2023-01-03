@@ -18,8 +18,7 @@ class loginViewController: UIViewController {
         Auth.auth().signIn(withEmail: email, password: password) {
             [weak self] authResult, error in
             if authResult != nil {
-                guard let nextVC = self?.storyboard?.instantiateViewController(identifier: "mainTabBarController") else {return}
-                self?.navigationController?.pushViewController(nextVC, animated: true)
+                print("로그인 성공")
             } else {
                 print("로그인 실패")
                 print(error.debugDescription)
@@ -35,6 +34,12 @@ class loginViewController: UIViewController {
     
     @IBAction func pressLoginBtn(_ sender: UIButton) {
         login(email: idTxtField.text!, password: passwordTxtField.text!)
+        if Auth.auth().currentUser != nil {
+            guard let nextVC = self.storyboard?.instantiateViewController(identifier: "mainTabBarController") else {return}
+            self.navigationController?.pushViewController(nextVC, animated: true)
+        } else {
+            print("로그인 정보 없음")
+        }
     }
 }
 
