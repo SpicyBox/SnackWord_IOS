@@ -26,10 +26,19 @@ class loginViewController: UIViewController {
         }
     }
     
+    func autoLogin(){
+        if Auth.auth().currentUser != nil { //자동 로그인
+            guard let nextVC = self.storyboard?.instantiateViewController(identifier: "mainTabBarController") else {return}
+            self.navigationController?.pushViewController(nextVC, animated: true)
+        } else {
+            print("로그인 정보 없음")
+        }
+    }
+    
     override func viewDidLoad() {
         FirebaseApp.configure()
         super.viewDidLoad()
-    
+        autoLogin()
     }
     
     @IBAction func pressLoginBtn(_ sender: UIButton) {
