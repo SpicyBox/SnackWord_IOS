@@ -16,7 +16,5 @@ class UserInfoViewController: UIViewController {
         super.viewDidLoad()
         userImg.layer.cornerRadius = userImg.frame.width / 2
         userImg.clipsToBounds = true
-    
     }
-
 }

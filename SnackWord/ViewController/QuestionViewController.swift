@@ -33,8 +33,5 @@ extension QuestionViewController: UITableViewDataSource{
         cell.dairyQuestImgView.image = UIImage(named: "Korea")
         
         return cell
-        
     }
-    
-    
 }

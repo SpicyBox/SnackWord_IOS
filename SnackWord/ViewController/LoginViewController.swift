@@ -14,7 +14,7 @@ class loginViewController: UIViewController {
     @IBOutlet weak var idTxtField: UITextField!
     @IBOutlet weak var passwordTxtField: UITextField!
     
-    func login(email: String, password: String){//파이어 베이스
+    func login(email: String, password: String){//로그인 함수
         Auth.auth().signIn(withEmail: email, password: password) {
             [weak self] authResult, error in
             if authResult != nil {
