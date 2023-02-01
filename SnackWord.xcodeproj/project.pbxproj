@@ -41,6 +41,7 @@
 		FBDCDF3E2952F97400A65DDA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDCDF3D2952F97400A65DDA /* LoginViewController.swift */; };
 		FBDCDF402963E7F400A65DDA /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDCDF3F2963E7F400A65DDA /* UserInfoViewController.swift */; };
 		FBDCDF432963FB5A00A65DDA /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = FBDCDF422963FB5A00A65DDA /* FSCalendar */; };
+		FBDCDF4529835C1700A65DDA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDCDF4429835C1700A65DDA /* SignUpViewController.swift */; };
 		FBFBB85329514059000A6C77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB85229514059000A6C77 /* AppDelegate.swift */; };
 		FBFBB85529514059000A6C77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB85429514059000A6C77 /* SceneDelegate.swift */; };
 		FBFBB85729514059000A6C77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB85629514059000A6C77 /* ViewController.swift */; };
@@ -56,6 +57,7 @@
 		FBDCDF3B2952E76000A65DDA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FBDCDF3D2952F97400A65DDA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FBDCDF3F2963E7F400A65DDA /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		FBDCDF4429835C1700A65DDA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FBFBB84F29514059000A6C77 /* SnackWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFBB85229514059000A6C77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBFBB85429514059000A6C77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				FB98C5DA2952A01B0082E91E /* RankViewController.swift */,
 				FBDCDF3D2952F97400A65DDA /* LoginViewController.swift */,
 				FBDCDF3F2963E7F400A65DDA /* UserInfoViewController.swift */,
+				FBDCDF4429835C1700A65DDA /* SignUpViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				FBFBB85729514059000A6C77 /* ViewController.swift in Sources */,
 				FB98C5DD2952A0560082E91E /* QuestionViewController.swift in Sources */,
 				FBFBB85329514059000A6C77 /* AppDelegate.swift in Sources */,
+				FBDCDF4529835C1700A65DDA /* SignUpViewController.swift in Sources */,
 				FB98C5D829529B170082E91E /* DariyQuestTVC.swift in Sources */,
 				FBFBB85529514059000A6C77 /* SceneDelegate.swift in Sources */,
 			);

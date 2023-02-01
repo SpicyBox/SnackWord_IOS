@@ -50,6 +50,7 @@ class loginViewController: UIViewController {
             print("로그인 정보 없음")
         }
     }
+    
 }
 
 
