@@ -18,3 +18,23 @@ class UserInfoViewController: UIViewController {
         userImg.clipsToBounds = true
     }
 }
+
+class CalendarVC: UIViewController {
+
+    @IBOutlet weak var calendarOrigin: FSCalendar!{
+            didSet{
+                calendarOrigin.delegate = self
+            }
+        }
+    @IBOutlet weak var calendarHeight: NSLayoutConstraint!
+}
+
+extension CalendarVC : FSCalendarDelegate {
+    
+    // Calendar 주간, 월간 원활한 크기 변화를 위해
+    func calendar(_ calendar: FSCalendar, boundingRectWillChange bounds: CGRect, animated: Bool){
+        calendarHeight.constant = bounds.height
+        self.view.layoutIfNeeded ()
+    }
+}
+
